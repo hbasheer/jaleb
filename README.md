@@ -64,43 +64,7 @@ product.doc.class.name # => Nokogiri::HTML::Document
 Jaleb.models # => [:amazon, :ebay, :etsy, :thinkgeek, ...]
 ```
 
-### CLI
 
-Get Product Details (defaults to yaml output):
-
-```sh
-$ jaleb fetch "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
-
----
-name: Avenir Deluxe Unicycle (20-Inch Wheel)
-description: 'Amazon.com: Avenir Deluxe Unicycle (20-Inch Wheel): Sports & Outdoors'
-price: $99.99
-image:
-  src: http://ecx.images-amazon.com/images/I/41b3TNb3uCL._SL500_AA280_.jpg
-url: http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8
-```
-
-Get a single attribute of a product:
-
-```sh
-$ jaleb fetch --only name "http://www.amazon.com/Avenir-Deluxe-Unicycle-20-Inch-Wheel/dp/B00165Q9F8"
-Avenir Deluxe Unicycle (20-Inch Wheel)
-```
-
-Get list of supported websites:
-
-```sh
-$ jaleb websites
-Amazon
-ThinkGeek
-...
-```
-
-Run in debug mode: 
-
-```sh
-jaleb fetch --debug "http://www.amazon.com/gp/product/B004HZYA6E/"
-```
 
 ## Attributes
 
