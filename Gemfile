@@ -4,7 +4,7 @@ gem "hashie"
 gem "nokogiri"
 gem "money"
 gem "monetize"
-
+gem "thor"
 group :development do 
  gem "shoulda", ">= 0"
  gem "bundler"
