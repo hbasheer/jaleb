@@ -24,7 +24,7 @@ Jaleb is a cross-website product information fetcher by a product's url.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'Jaleb'
+gem 'jaleb'
 ```
 
 And then execute:
@@ -33,7 +33,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install Jaleb
+    $ gem install jaleb
 
 ## Usage
 
