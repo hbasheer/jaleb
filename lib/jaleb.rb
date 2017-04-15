@@ -58,11 +58,6 @@ module Jaleb
 
 
 
-  # Autoload CLI
-  module CLI
-    autoload :Utility, File.join(CLI_PATH, 'utility')
-  end
-
   # Autoload Models
   module Model
     autoload :Base, File.join(MODEL_PATH, "base")
